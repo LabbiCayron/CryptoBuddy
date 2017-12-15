@@ -40,7 +40,7 @@ class CTrader():
 	
 		self.running 			   = True
 		self.BUDGET 			   = int(budget) # USD
-		self.investing_pr_round    = self.BUDGET * 0.03   # 7.5% 
+		self.investing_pr_round    = self.BUDGET * 0.03   # 3% 
 
 		self.currency   		   = currency
 		self.interval 		       = interval
